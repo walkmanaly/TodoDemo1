@@ -14,6 +14,7 @@
 		01752AE11FBB580D0075CDE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01752ADF1FBB580D0075CDE0 /* LaunchScreen.storyboard */; };
 		01752AEC1FBB580D0075CDE0 /* TodoDemo1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01752AEB1FBB580D0075CDE0 /* TodoDemo1Tests.swift */; };
 		01752AF71FBB580D0075CDE0 /* TodoDemo1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01752AF61FBB580D0075CDE0 /* TodoDemo1UITests.swift */; };
+		01752B051FBB59200075CDE0 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01752B041FBB59200075CDE0 /* TodoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		01752AF21FBB580D0075CDE0 /* TodoDemo1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoDemo1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01752AF61FBB580D0075CDE0 /* TodoDemo1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDemo1UITests.swift; sourceTree = "<group>"; };
 		01752AF81FBB580D0075CDE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01752B041FBB59200075CDE0 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				01752AD61FBB580D0075CDE0 /* AppDelegate.swift */,
 				01752AD81FBB580D0075CDE0 /* ViewController.swift */,
+				01752B041FBB59200075CDE0 /* TodoItem.swift */,
 				01752ADA1FBB580D0075CDE0 /* Main.storyboard */,
 				01752ADD1FBB580D0075CDE0 /* Assets.xcassets */,
 				01752ADF1FBB580D0075CDE0 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01752AD91FBB580D0075CDE0 /* ViewController.swift in Sources */,
+				01752B051FBB59200075CDE0 /* TodoItem.swift in Sources */,
 				01752AD71FBB580D0075CDE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
